@@ -8,11 +8,12 @@ $to=filter_var($to, FILTER_SANITIZE_EMAIL);
 //$subject = $_POST['subject'];
 //$from = $_POST['from'];
  
-$pEmailGmail = 'crowdcognition@gmail.com';
-$pPasswordGmail = 'icn@ERC13';
-$pFromMail = 'u.hertz@ucl.ac.uk';
-$pFromName = 'Uri Hertz'; //display name
-
+    
+$pEmailGmail = 'NameOfTheEmail@gmail.com';
+$pPasswordGmail = 'ThePassword';
+$pFromMail = 'name.number@ucl.ac.uk';
+$pFromName = 'name '; //display name
+    
 $pTo = $to; //destination email
 $pSubjetc = $_POST['subject']; //the subjetc 
 $pBody = $_POST['content']; //body html
